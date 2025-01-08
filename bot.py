@@ -4,7 +4,7 @@ import json
 
 bot = telebot.TeleBot('token', parse_mode='HTML')
 
-CHANNEL_ID = -1002325117958
+CHANNEL_ID = channel_id
 MESSAGES_FILE = 'messages.json'
 BANNED_USERS_FILE = 'banned_users.json'
 BOT_MESSAGES_FILE = 'bot_messages.json'
